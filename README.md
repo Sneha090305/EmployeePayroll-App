@@ -26,7 +26,6 @@ The application demonstrates how to:
 
 ## Project Structure
 
-```
 EmployeePayrollApp
 │
 ├── src/main/java/com/bridgelabz/EmployeePayroll_App
@@ -38,7 +37,6 @@ EmployeePayrollApp
 │   └── application.properties
 │
 └── pom.xml
-```
 
 ---
 
@@ -50,8 +48,42 @@ Created Spring Boot project
 
 Added required dependencies
 
+---
+
 UC2 – REST APIs
 
 Implemented basic CRUD operations using REST
+
+Handled HTTP methods (GET, POST, PUT, DELETE)
+
+---
+
+UC3 – Introduce DTO and Model
+
+Created Employee Model class to represent data
+
+Introduced DTO for request and response handling
+
+Separated internal data structure from API layer
+
+---
+
+UC4 – Introduce Service Layer
+
+Added Service Layer to handle business logic
+
+Moved logic from Controller to Service
+
+Followed layered architecture (Controller → Service)
+
+---
+
+UC5 – In-Memory Data Storage
+
+Stored employee data using List
+
+Implemented add, view, update, and delete operations
+
+Simulated database functionality without actual DB
 
 ---
